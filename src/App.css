@@ -1,0 +1,101 @@
+@font-face {
+    font-family: "Mont-Regular";
+    src: url('assets/font/Mont-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Mont-SemiBold";
+    src: url('assets/font/Mont-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Mont-Bold";
+    src: url('assets/font/Mont-Bold.ttf') format('truetype');
+}
+
+.gradient-text-1 {
+    background: #FF1E01;
+    background: -webkit-linear-gradient(to bottom, #FF1E01 0%, #CB10FA 100%);
+    background: -moz-linear-gradient(to bottom, #FF1E01 0%, #CB10FA 100%);
+    background: linear-gradient(to bottom, #FF1E01 0%, #CB10FA 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gradient-bg-1 {
+    background: linear-gradient(180deg, #3136AB 0%, #934DCB 100%);
+    background: -webkit-linear-gradient(180deg, #3136AB 0%, #934DCB 100%);
+    background: -moz-linear-gradient(180deg, #3136AB 0%, #934DCB 100%);
+}
+
+.gradient-bg-2 {
+    background: linear-gradient(270.94deg, #5C57CE -4.2%, #D079C3 101.88%);
+    background: -webkit-linear-gradient(270.94deg, #5C57CE -4.2%, #D079C3 101.88%);
+    background: -moz-linear-gradient(270.94deg, #5C57CE -4.2%, #D079C3 101.88%);
+}
+
+.gradient-bg-3 {
+    background: linear-gradient(143.09deg, #011F8B 2.05%, #9A4DCB 94.75%);
+    background: -webkit-linear-gradient(143.09deg, #011F8B 2.05%, #9A4DCB 94.75%);
+    background: -moz-linear-gradient(143.09deg, #011F8B 2.05%, #9A4DCB 94.75%);
+}
+
+.gradient-bg-4 {
+    background-color: #CA77C4;
+}
+
+.icon {
+    display: inline-block;
+    width: 16px !important;
+}
+
+.icon.lg {
+    width: 24px !important;
+}
+
+.list-none>li {
+    display: flex;
+    align-items: center;
+}
+
+.list-none.mb-5>li {
+    margin-bottom: 20px !important;
+}
+
+.list-none.items-baseline>li {
+    align-items: baseline;
+}
+
+.color-bg-1 {
+    background-color: rgba(229, 239, 255, 0.6);
+}
+.color-bg-2 {
+    background-color: rgba(92, 87, 206, 0.1);
+}
+.color-bg-3 {
+    background-color: rgba(235, 127, 32, 0.3);
+}
+.color-bg-4 {
+    background-color: rgba(255, 243, 158, 0.4);
+}
+.color-bg-5 {
+    background-color: #F3F7FA
+}
+.color-bg-6 {
+    background-color: #E5EFFF;
+}
+.green-placeholder::placeholder {
+    color: #389596;
+    opacity: 1;
+}
+.rounded-bg {
+    background-image: url('assets/img/rounded-bg.png');
+    background-size: 100vw 65vh;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 768px) {
+    .rounded-bg  {
+        background-size: 100vw 80vh;
+    }
+}
